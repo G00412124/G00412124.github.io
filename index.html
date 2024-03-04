@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>SulfurousEdits</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,12 +25,35 @@
 
     <!-- Your website content goes here -->
 
+    <div class="container">
+        <section class="section">
+            <h2>Welcome to SulfurousEdits!</h2>
+            <p>This is where you can find all your editing needs.</p>
+            <p>Feel free to explore our services and contact us for more information.</p>
+        </section>
 
+        <section class="section">
+            <h2>Interactive Pictures</h2>
+            <img src="interactive-picture.jpg" alt="Interactive Picture" id="interactive-picture">
+        </section>
 
-    <!--Your website content ends here -->
+        <section class="section">
+            <h2>Input Box</h2>
+            <input type="text" id="input-box" placeholder="Enter your text here">
+        </section>
+    </div>
+
+    <script>
+        // JavaScript code for making the picture interactive
+        document.getElementById("interactive-picture").addEventListener("click", function() {
+            alert("You clicked the interactive picture!");
+        });
+    </script>
+    
+    <!-- Your website content ends here -->
 
     <footer>
-        <p>&copy; 2024 SulfurousEdits. All rights reserved.</p>
+        <p>&copy; <?php echo date("Y"); ?> SulfurousEdits. All rights reserved.</p>
     </footer>
 </body>
 </html>
