@@ -24,32 +24,9 @@
     </header>
 
     <!-- Your website content goes here -->
-
-    <div class="container">
-        <section class="section">
-            <h2>Welcome to SulfurousEdits!</h2>
-            <p>This is where you can find all your editing needs.</p>
-            <p>Feel free to explore our services and contact us for more information.</p>
-        </section>
-
-        <section class="section">
-            <h2>Interactive Pictures</h2>
-            <img src="interactive-picture.jpg" alt="Interactive Picture" id="interactive-picture">
-        </section>
-
-        <section class="section">
-            <h2>Input Box</h2>
-            <input type="text" id="input-box" placeholder="Enter your text here">
-        </section>
-    </div>
-
-    <script>
-        // JavaScript code for making the picture interactive
-        document.getElementById("interactive-picture").addEventListener("click", function() {
-            alert("You clicked the interactive picture!");
-        });
-    </script>
-    
+    <?php
+        // PHP code can be inserted here to dynamically generate content
+    ?>
     <!-- Your website content ends here -->
 
     <footer>
